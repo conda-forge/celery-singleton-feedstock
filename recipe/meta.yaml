@@ -10,7 +10,7 @@ source:
   sha256: a6741832bd19d20228b2eacc145cc549510cb2423ee2b2ae08a0b974b876d584
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
 
@@ -22,7 +22,7 @@ requirements:
   run:
     - python
     - celery >=4.0.0
-    - redis >=2.10.5
+    - redis-py >=2.10.5
 
 test:
   imports:
