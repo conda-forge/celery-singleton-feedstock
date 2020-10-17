@@ -18,11 +18,11 @@ requirements:
   host:
     - pip
     - poetry >=0.12
-    - python >=3.5
+    - python >=3.6
   run:
-    - python >=3.5
-    - celery 4
-    - redis-py 2
+    - python >=3.6
+    - celery >=4
+    - redis-py
 
 test:
   imports:
