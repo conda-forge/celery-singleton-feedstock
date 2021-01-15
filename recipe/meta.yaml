@@ -1,5 +1,5 @@
 {% set name = "celery-singleton" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e359936f3e4ad57cda567727ce1144c137e20fc95b3a4f8e82d21b9fd1f5a53e
+  sha256: 260ce4978e631f8682ea0ccb03d7f3b87d42bc20e04e9bd46ddb78a2f8035d1e
 
 build:
   number: 0
